@@ -40,14 +40,17 @@ AirWay es una plataforma integral que conecta a compañías de transporte con us
 
 ## Colaboradores
 
-[![GitHub Contributors](https://contrib.rocks/image?repo=GabrielCarrilloF/airway-system)](https://github.com/GabrielCarrilloF/airway-system/graphs/contributors)
+<!-- Generado automáticamente por contrib.rocks -->
+[![GitHub Contributors](https://contrib.rocks/image?repo=GabrielCarrilloF/AirWay---System)](https://github.com/GabrielCarrilloF/AirWay---System/graphs/contributors)
+
+
 
 
 ## Instalación
 
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/usuario/airway-system.git
+   git clone https://github.com/GabrielCarrilloF/AirWay---System.git
 
 ## Uso
 **Compañías de Transporte:**
