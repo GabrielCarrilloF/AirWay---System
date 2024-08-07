@@ -48,7 +48,7 @@ AirWay es una plataforma integral que conecta a compañías de transporte con us
 
 <!-- Actualiza esta sección manualmente o utiliza un script para automatizar -->
 - [Gabriel Carrillo](https://github.com/GabrielCarrilloF)
-- [Habib Gonzalez](https://github.com/HabiSebGJ))
+- [Habib Gonzalez](https://github.com/HabiSebGJ)
 - [Colaborador 2](https://github.com/colaborador2)
 
 ## Instalación
