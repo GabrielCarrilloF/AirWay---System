@@ -44,7 +44,12 @@ AirWay es una plataforma integral que conecta a compañías de transporte con us
 [![GitHub Contributors](https://contrib.rocks/image?repo=GabrielCarrilloF/AirWay---System)](https://github.com/GabrielCarrilloF/AirWay---System/graphs/contributors)
 
 
+### Lista de Colaboradores
 
+<!-- Actualiza esta sección manualmente o utiliza un script para automatizar -->
+- [Gabriel Carrillo](https://github.com/GabrielCarrilloF)
+- [Colaborador 1](https://github.com/colaborador1)
+- [Colaborador 2](https://github.com/colaborador2)
 
 ## Instalación
 
