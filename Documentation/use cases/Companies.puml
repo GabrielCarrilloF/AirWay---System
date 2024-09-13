@@ -1,10 +1,18 @@
 @startuml c
+actor "Compañía de Transporte" as Company
 
- 
-actor companie
+    usecase "Registrar Compañía" as UC1
+    usecase "Configurar Servicios de Transporte" as UC2
+    usecase "Publicar Rutas y Boletos" as UC3
+    usecase "Consultar Reportes de Ventas" as UC4
+    usecase "Administrar Tarifas y Descuentos" as UC5
 
-companie --> (Iniciar sesión)
-companie --> ()
+
+Company --> UC1 : "Proporcionar datos de registro"
+Company --> UC2 : "Configurar vehículos y rutas"
+Company --> UC3 : "Ofrecer boletos"
+Company --> UC4 : "Consultar desempeño"
+Company --> UC5 : "Ajustar precios y descuentos"
 
 @enduml
 
