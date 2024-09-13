@@ -1,0 +1,10 @@
+@startuml c
+
+ 
+actor companie
+
+companie --> (Iniciar sesión)
+companie --> ()
+
+@enduml
+
