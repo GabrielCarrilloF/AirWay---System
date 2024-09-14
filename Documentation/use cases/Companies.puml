@@ -11,6 +11,7 @@ actor "Compañía de Transporte" as Company
     usecase "Consultar Reportes de Ventas" as UC8
     usecase "Administrar Tarifas y Descuentos" as UC9
     usecase "Estadiasticas de ventas" as UC10
+    usecase "Ver reseñas de clientes" as UC10
 
 
 Company --> UC1 : "Proporcionar datos de registro"
