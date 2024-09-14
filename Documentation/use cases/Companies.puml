@@ -2,16 +2,16 @@
 actor "Compañía de Transporte" as Company
 
     usecase "Registrar Compañía" as UC1
-    usecase "Administar su cunta" as UC1
-    usecase "Crear Servicios de Transporte" as UC2
-    usecase "Publicar Rutas y Boletos" as UC3
+    usecase "Administar su cunta" as UC2
+    usecase "Crear Servicios de Transporte" as UC3
+    usecase "Publicar Rutas y Boletos" as UC4
     usecase "Editar Rutas y Boletos" as UC5
     usecase "Mostrar Rutas y Boletos creados y publicados" as UC6
     usecase "Eliminar Rutas y Boletos" as UC7
     usecase "Consultar Reportes de Ventas" as UC8
     usecase "Administrar Tarifas y Descuentos" as UC9
     usecase "Estadiasticas de ventas" as UC10
-    usecase "Ver reseñas de clientes" as UC10
+    usecase "Ver reseñas de clientes" as UC11
 
 
 Company --> UC1 : "Proporcionar datos de registro"
@@ -19,6 +19,12 @@ Company --> UC2 : "Configurar vehículos y rutas"
 Company --> UC3 : "Ofrecer boletos"
 Company --> UC4 : "Consultar desempeño"
 Company --> UC5 : "Ajustar precios y descuentos"
+Company --> UC6
+Company --> UC7 
+Company --> UC8 
+Company --> UC9
+Company --> UC10
+Company --> UC11
 
 @enduml
 
