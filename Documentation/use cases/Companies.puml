@@ -6,19 +6,20 @@ actor "Compañía de Transporte" as Company
     usecase "Crear Servicios de Transporte" as UC3
     usecase "Publicar Rutas y Boletos" as UC4
     usecase "Editar Rutas y Boletos" as UC5
-    usecase "Mostrar Rutas y Boletos creados y publicados" as UC6
+    usecase "Consultar Rutas y Boletos creados y publicados" as UC6
     usecase "Eliminar Rutas y Boletos" as UC7
     usecase "Consultar Reportes de Ventas" as UC8
     usecase "Administrar Tarifas y Descuentos" as UC9
-    usecase "Estadiasticas de ventas" as UC10
+    usecase "Consulatar sus estadiasticas de ventas" as UC10
     usecase "Ver reseñas de clientes" as UC11
+    usecase "Notificar a clinetes" as UC11
 
 
-Company --> UC1 : "Proporcionar datos de registro"
-Company --> UC2 : "Configurar vehículos y rutas"
-Company --> UC3 : "Ofrecer boletos"
-Company --> UC4 : "Consultar desempeño"
-Company --> UC5 : "Ajustar precios y descuentos"
+Company --> UC1
+Company --> UC2 
+Company --> UC3 
+Company --> UC4 
+Company --> UC5 
 Company --> UC6
 Company --> UC7 
 Company --> UC8 
