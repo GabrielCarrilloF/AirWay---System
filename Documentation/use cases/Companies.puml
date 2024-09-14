@@ -13,6 +13,9 @@ actor "Compañía de Transporte" as Company
     usecase "Consulatar sus estadiasticas de ventas" as UC10
     usecase "Ver reseñas de clientes" as UC11
     usecase "Notificar a clinetes" as UC11
+    usecase "Gestionar Cambios y Cancelaciones de Rutas" as UC11
+    usecase "Soporte al Cliente" as UC11
+
 
 
 Company --> UC1
