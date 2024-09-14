@@ -2,10 +2,13 @@
 actor "Compañía de Transporte" as Company
 
     usecase "Registrar Compañía" as UC1
-    usecase "Configurar Servicios de Transporte" as UC2
+    usecase "Crear Servicios de Transporte" as UC2
     usecase "Publicar Rutas y Boletos" as UC3
-    usecase "Consultar Reportes de Ventas" as UC4
-    usecase "Administrar Tarifas y Descuentos" as UC5
+    usecase "Editar Rutas y Boletos" as UC5
+    usecase "Mostrar Rutas y Boletos creados y publicados" as UC6
+    usecase "Eliminar Rutas y Boletos" as UC7
+    usecase "Consultar Reportes de Ventas" as UC8
+    usecase "Administrar Tarifas y Descuentos" as UC9
 
 
 Company --> UC1 : "Proporcionar datos de registro"
