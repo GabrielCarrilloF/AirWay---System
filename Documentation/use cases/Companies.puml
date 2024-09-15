@@ -4,6 +4,7 @@
     package "Gestión de Compañía" {
         usecase "Registrar Compañía" as UC1
         usecase "Administrar su cuenta" as UC2
+        usecase "Restablecer Cuenta" as UC15
     }
 
     package "Gestión de Servicios" {
@@ -44,4 +45,5 @@
     Company --> UC12
     Company --> UC13
     Company --> UC14
+    Company --> UC15
 @enduml
