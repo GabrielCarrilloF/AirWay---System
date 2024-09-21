@@ -1,0 +1,49 @@
+@startuml Company
+    actor "Compañía de Transporte" as Company
+
+    package "Gestión de Compañía" {
+        usecase "Registrar Compañía" as UC1
+        usecase "Administrar su cuenta" as UC2
+        usecase "Restablecer Cuenta" as UC15
+    }
+
+    package "Gestión de Servicios" {
+        usecase "Crear Servicios de Transporte" as UC3
+        usecase "Publicar Rutas y Boletos" as UC4
+        usecase "Editar Rutas y Boletos" as UC5
+        usecase "Eliminar Rutas y Boletos" as UC7
+        usecase "Gestionar Cambios y Cancelaciones de Rutas" as UC13
+    }
+
+    package "Consultas y Estadísticas" {
+        usecase "Consultar Rutas y Boletos creados y publicados" as UC6
+        usecase "Consultar Reportes de Ventas" as UC8
+        usecase "Consultar sus estadísticas de ventas" as UC10
+    }
+
+    package "Relación con Clientes" {
+        usecase "Ver reseñas de clientes" as UC11
+        usecase "Notificar a clientes" as UC12
+        usecase "Soporte al Cliente" as UC14
+    }
+
+    package "Gestión Financiera" {
+        usecase "Administrar Tarifas y Descuentos" as UC9
+    }
+
+    Company --> UC1
+    Company --> UC2
+    Company --> UC3
+    Company --> UC4
+    Company --> UC5
+    Company --> UC6
+    Company --> UC7
+    Company --> UC8
+    Company --> UC9
+    Company --> UC10
+    Company --> UC11
+    Company --> UC12
+    Company --> UC13
+    Company --> UC14
+    Company --> UC15
+@enduml
