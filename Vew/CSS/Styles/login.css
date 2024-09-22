@@ -2,7 +2,7 @@
 
 body {
     position: relative;
-    background: var(--whiteColor);
+    background-color: var(--whiteColor);
     overflow: hidden;
 
     display: flex;
@@ -20,8 +20,8 @@ body {
     margin-left: 30%;
     margin-top: 10%;
     margin-bottom: 10px;
-    width: 298px;
-    height: 282px;
+    width: 278px;
+    height: 262px;
 }
 
 .container_input{
@@ -38,10 +38,10 @@ body {
     width: 572px;
     height: 48px;
 
-    background: #D9D9D9;
+    background: var(--lightGray);
     border-radius: 15px;
 
-    font-family: 'Inter';
+    font-family: var(--inter);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -59,7 +59,7 @@ body {
     padding-left: 25px;
     text-decoration: none;
  
-    font-family: 'Raleway';
+    font-family: var(--raleway);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -67,6 +67,27 @@ body {
     text-align: center;
     text-transform: uppercase;
 
-    color: #0015FF;
+    color: var(--darkBlue);
 
+}
+
+button {
+    border: none;
+    width: 189px;
+    height: 39px;
+    margin-top: 15px;
+    margin-left: 35%;
+
+    background: var(--orange);
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
 }

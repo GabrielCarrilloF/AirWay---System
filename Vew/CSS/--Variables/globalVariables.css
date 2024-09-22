@@ -1,3 +1,12 @@
 :root{
+    /*Colors*/
     --whiteColor: #FFFFFF;
+    --lightGray: #D9D9D9;
+    --darkBlue: #0015FF;
+    --orange: #FF8B38;
+
+    /*Fonsts*/
+    --inter: 'Inter';
+    --raleway: 'Raleway';
+    --roboto: 'Roboto';
 }
