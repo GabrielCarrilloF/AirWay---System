@@ -51,11 +51,81 @@ AirWay es una plataforma integral que conecta a compañías de transporte con us
 - [Jesus Valiente](https://github.com/jesusbrave)
 - [Luis Olmos](https://github.com/Luis.Olmos)
 
+
 ## Instalación
 
-1. Clonar el repositorio:
+### Requisitos previos
+
+1. Tener instalados los siguientes programas:
+   - [PHP](https://www.php.net/) 7.4 o superior
+   - [Composer](https://getcomposer.org/) para gestionar las dependencias de PHP
+   - [Node.js](https://nodejs.org/) 14 o superior y [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+   - [Git](https://git-scm.com/) para clonar los repositorios
+   - [MySQL](https://www.mysql.com/) u otro motor de base de datos compatible
+
+### Clonar los repositorios
+
+1. Clonar el repositorio del backend (Laravel):
    ```sh
+   git clone https://github.com/GabrielCarrilloF/backend_AirWay.git
+   cd backend_AirWay
+   ```
+
+2. Instalar las dependencias de PHP utilizando Composer:
+   ```sh
+   composer install
+   ```
+
+3. Crear un archivo `.env` en la raíz del proyecto de Laravel copiando el archivo de ejemplo:
+   ```sh
+   cp .env.example .env
+   ```
+
+4. Generar la clave de la aplicación de Laravel:
+   ```sh
+   php artisan key:generate
+   ```
+
+5. Ejecutar las migraciones para crear las tablas en la base de datos:
+   ```sh
+   php artisan migrate
+   ```
+
+6. Iniciar el servidor de desarrollo de Laravel:
+   ```sh
+   php artisan serve
+   ```
+
+7. En otra terminal, clonar el repositorio del frontend (Vue.js):
+   ```sh
+   cd ..
    git clone https://github.com/GabrielCarrilloF/AirWay---System.git
+   cd AirWay---System
+   ```
+
+8. Instalar las dependencias de Node.js:
+   ```sh
+   npm install
+   ```
+
+9. Crear un archivo `.env` en la raíz del proyecto de Vue.js copiando el archivo de ejemplo:
+   ```sh
+   cp .env.example .env
+   ```
+
+10. Configurar la URL del backend (Laravel) en el archivo `.env` del proyecto Vue.js:
+    ```
+    VITE_API_URL=http://127.0.0.1:8000/api
+    ```
+
+### Ejecutar el proyecto
+
+1. Iniciar el servidor de desarrollo de Vue.js:
+   ```sh
+   npm run dev
+   ```
+
+2. Ahora, tanto el frontend como el backend deberían estar corriendo. Puedes acceder al frontend en `http://localhost:3000` y al backend en `http://localhost:8000`.
 
 ## Uso
 **Compañías de Transporte:**
